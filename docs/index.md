@@ -21,7 +21,7 @@ features:
       src: /file-pdf-box.svg
     title: Guide in PDF
     details: A downloadable version of the guide.
-    link: data-quality-compliance-report.pdf
+    link: guide-metadata-standards.pdf
 
   - icon:
       src: /github-mark.svg
@@ -36,5 +36,3 @@ features:
 
     
 ---
-
-This guide is part of the guidance related to the Development Data Quality Policy [link]. Access other guidance and tools.
