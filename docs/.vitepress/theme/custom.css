@@ -1,3 +1,17 @@
+/* Home hero image: 20% smaller */
+.VPHome .image img {
+  max-width: 200px;
+  max-height: 200px;
+}
+
+
+@media (min-width: 960px) {
+  .main .heading .name {
+      font-size: 54px;
+  }
+}
+
+
 /* Reduce paragraph spacing in tables */
 table p {
   margin-top: 0;
@@ -79,3 +93,8 @@ table .td-top-border-0 {
   font-weight:normal!important;
 }
 
+.vp-doc h1,
+.vp-doc h2,
+.vp-doc h3 {
+  word-spacing: 0.3em; /* tweak amount */
+}

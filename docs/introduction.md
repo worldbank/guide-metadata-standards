@@ -10,20 +10,21 @@ context, the Bank issued a *Development Data Quality Policy* in October
 2024, which **mandates the adoption and implementation of metadata
 standards** for the curation and dissemination of Bank development data.
 
-**Bank Development Data** is defined in the Bank’s *Development Data
-Quality Policy* as “\[a\]ny Data Product that (i) is not Third Party
-Data, and (ii) is produced or disseminated by the Bank or by the Bank in
-collaboration with a third party for the purpose of facilitating
-development or otherwise relating to any development activity of the
-Bank (which for the avoidance of doubt excludes Bank Corporate Data).”
-**Development data** encompass a wide variety of information, including
-statistical indicators, microdata from surveys, censuses and other
-sources, as well as geographic datasets. They may also include
-unstructured data—such as text, audio recordings, videos, and
-images—when these are used as media for publishing development data or
-as inputs for artificial intelligence applications, either to train
-models or to extract development-relevant information from the
-underlying resources.
+> **Bank Development Data** is defined in the Bank’s *Development Data
+> Quality Policy* as “\[a\]ny Data Product that (i) is not Third Party
+> Data, and (ii) is produced or disseminated by the Bank or by the Bank in
+> collaboration with a third party for the purpose of facilitating
+> development or otherwise relating to any development activity of the
+> Bank (which for the avoidance of doubt excludes Bank Corporate Data).”
+
+> **Development data** encompass a wide variety of information, including
+> statistical indicators, microdata from surveys, censuses and other
+> sources, as well as geographic datasets. They may also include
+> unstructured data—such as text, audio recordings, videos, and
+> images—when these are used as media for publishing development data or
+> as inputs for artificial intelligence applications, either to train
+> models or to extract development-relevant information from the
+> underlying resources.
 
 The adoption of metadata standards aims to guarantee the availability of
 comprehensive and structured metadata, providing critical information

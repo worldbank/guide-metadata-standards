@@ -114,7 +114,6 @@ alongside descriptive, reference, and structural metadata.
   monitoring of external dissemination channels, such as publication
   databases.
 
-<!-- -->
 
 - **Relationship metadata** articulate links between datasets and
   associated resources, playing a critical role in documenting data

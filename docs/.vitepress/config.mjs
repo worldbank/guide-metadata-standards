@@ -13,7 +13,7 @@ export default defineConfig({
   base: '/',
   themeConfig: {
     logo: '/hub-outline.svg',
-    siteTitle: 'Metadata Standards Guide',
+    siteTitle: 'Metadata Standards',
     outline: {
       level: [2, 3]
     },
@@ -26,7 +26,7 @@ export default defineConfig({
 
     sidebar: [
       { text: 'Home', link: '/' },
-      { text: 'Contents', link: '/contents' },
+      { text: 'License', link: '/license' },
       { text: 'Foreword', link: '/foreword' },
       { text: 'Acknowledgments', link: '/acknowledgments' },
       { text: 'Acronyms', link: '/acronyms' },
@@ -70,8 +70,13 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/' }
-    ]
+      { icon: 'github', link: 'https://github.com/worldbank/guide-metadata-standards' }
+    ],
+
+    editLink: {
+      pattern: 'https://github.com/worldbank/guide-metadata-standards/edit/main/docs/:path',
+      text: 'Edit this page on GitHub'
+    }
   }
 })
 

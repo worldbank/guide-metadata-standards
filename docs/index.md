@@ -28,11 +28,10 @@ features:
     title: Guide in Markdown
     details: Contribute to the guide by providing feedback and input
     link: https://github.com/worldbank/guide-metadata-standards
-
-  - icon:
-      src: /github-mark.svg
-    title: Related documents
-    details: This guide is part of the guidance related to the Development Data Quality Policy [link]. Access other guidance and tools.
-
-    
+  
 ---
+
+<br></br>
+
+
+ This Reference Guide is part of the technical guidance related to the World Bank Group’s [Development Data Quality Policy](https://policies.worldbank.org/en/policies/all/ppfdetail/de65051a-a1ee-410e-aba8-9c302f59be2f). An open-source [Metadata Editor software application](https://worldbank.github.io/metadata-editor-docs/) was developed to generate and manage metadata compliant with the standards described in the Guide. The technical documentation of the standards is available at https://worldbank.github.io/metadata-schemas/.
