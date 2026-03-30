@@ -176,17 +176,17 @@ Let’s consider an indicator "Population by Sex (Thousands)", which
 provides the population of Belgium for years 2010 and 2020 disaggregated
 by sex (male/female/total) and is stored as follows in the data file.
 
-<table>
+<table class="pdf-fit-table table-small">
 <colgroup>
-<col style="width: 8%" />
-<col style="width: 16%" />
-<col style="width: 13%" />
-<col style="width: 14%" />
-<col style="width: 9%" />
-<col style="width: 5%" />
-<col style="width: 11%" />
-<col style="width: 13%" />
-<col style="width: 7%" />
+<col/>
+<col/>
+<col />
+<col/>
+<col/>
+<col />
+<col/>
+<col/>
+<col/>
 </colgroup>
 <thead>
 <tr>

@@ -32,6 +32,24 @@ table td {
   padding: 0.4em 0.6em;
 }
 
+/* Remove all cell padding for wide PDF-fit tables */
+.vp-doc table.pdf-fit-table th,
+.vp-doc table.pdf-fit-table td {
+  padding: 0 !important;
+}
+
+/* Force 12px text for all cells in compact tables */
+.vp-doc table.table-small th,
+.vp-doc table.table-small td {
+  font-size: 12px !important;
+}
+
+/* Allow light padding when compact + PDF-fit are used together */
+.vp-doc table.pdf-fit-table.table-small th,
+.vp-doc table.pdf-fit-table.table-small td {
+  padding: 2px !important;
+}
+
 /* Top align all table content */
 table {
   vertical-align: top;
@@ -97,4 +115,39 @@ table .td-top-border-0 {
 .vp-doc h2,
 .vp-doc h3 {
   word-spacing: 0.3em; /* tweak amount */
+}
+
+/* PDF link handling:
+   - In normal website view: show `.pdf-web` links.
+   - During `print` (used by export): hide `.pdf-web` and show `.pdf-only` fragment links. */
+a.pdf-only {
+  display: none;
+}
+
+@media print {
+  a.pdf-only {
+    display: inline;
+  }
+
+  a.pdf-web {
+    display: none;
+  }
+
+  .vp-doc table.pdf-fit-table {
+    width: 100%;
+    table-layout: fixed;
+    font-size: 10px;
+  }
+
+  .vp-doc table.pdf-fit-table th,
+  .vp-doc table.pdf-fit-table td {
+    padding: 0 !important;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  .vp-doc table.pdf-fit-table.table-small th,
+  .vp-doc table.pdf-fit-table.table-small td {
+    padding: 2px !important;
+  }
 }
