@@ -29,6 +29,8 @@
   p,
   .vp-doc p,
   .vp-doc li,
+  .vp-doc blockquote,
+  .vp-doc blockquote p,
   td,
   table td
   {

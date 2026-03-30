@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Reference Guide on Metadata Standards for Development Data"
   text: <div><div class="sub-text">Version 1.0.0 - 2026-02-20</div></div>
-  tagline: A guide by the Office of the World Bank Group Chief Statistician and Chief Data and Technology Officer.
+  tagline: A guide by the Office of the World Bank Group Chief Statistician and Chief Data and Technology Officer
   image:
     src: /hub-outline.svg
     alt: Data Quality Compliance
