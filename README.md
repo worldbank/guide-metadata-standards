@@ -2,16 +2,17 @@
 
 Office of the World Bank Group Chief Statistician and Data Technology Office
 
-> [!IMPORTANT]
-> Published guide (GitHub Pages): https://worldbank.github.io/guide-metadata-standards/
+🌐 **Published guide (GitHub Pages):**  
+Visit the published documentation at:  👉 https://worldbank.github.io/guide-metadata-standards/
 
+---
 
-This reference guide outlines the World Bank Group’s metadata strategy for development data. It covers the principles, procedures, tools, roles, and responsibilities required to comply with metadata standards — standards designed to ensure that data is accompanied by comprehensive, structured information about its context, quality, and characteristics. Adherence to these standards promotes responsible and efficient data management and dissemination, enhances discoverability, clarity, interpretability, and trustworthiness, and supports the development of cost-effective, interoperable systems that make the Bank's data products AI-ready. While primarily intended for internal use, this guide and its associated implementation tools (including the open-source [Metadata Editor application](https://worldbank.github.io/metadata-editor/)) also serve as an advocacy instrument for encouraging the adoption of metadata standards among partner agencies and client countries. Feedback and suggestions are welcome — please submit them as issues in this GitHub repository.
+This Reference Guide was created by the World Bank Group, Office of the Chief Statistician and Data Technology Office.  It is part of the technical guidance related to the World Bank Group’s Development Data Quality Policy. An open-source [Metadata Editor software application](https://worldbank.github.io/metadata-editor/) was developed to generate and manage metadata compliant with the standards described in the Guide. The technical documentation of the standards is available at https://worldbank.github.io/metadata-schemas/.
+
 
 **License Information**
 
-This document was created by the World Bank Group. It is published under
-a CC BY 4.0 Attribution license.
+This document is licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0). See https://creativecommons.org/licenses/by-nc-nd/4.0/
 
 **Disclaimer**
 
