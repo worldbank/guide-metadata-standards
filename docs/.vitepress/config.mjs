@@ -10,7 +10,7 @@ export default defineConfig({
   },
   title: "Reference Guide on Metadata Standards for Development Data",
   description: "World Bank Group reference guide on metadata standards for development data",
-  base: '/',
+  base: '/guide-metadata-standards/',
   themeConfig: {
     logo: '/hub-outline.svg',
     siteTitle: 'Metadata Standards',
