@@ -62,34 +62,96 @@
 }
 
 
-.print-cover-page-class h1, 
+.print-cover-page-class h1,
 .print-cover-page-class h2,
-.print-cover-page-class h3{
-  border:0px;
-  margin-top:0px;
-  margin-bottom:0px;
-  padding-bottom:0px;
-  padding-top:0px;
+.print-cover-page-class h3 {
+  border: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
-.print-cover-page-class h1{
-  font-size:56px;
-  font-weight:bold;
-  margin-top:30px;
-  line-height:1.2;
+.print-cover-page-class .pdf-cover-hero {
+  text-align: center;
+  margin-bottom: 2.5rem;
 }
 
-.print-cover-page-class h2{
-  font-size:46px;
-  font-weight:bold;
-  margin-bottom:30px;
-  line-height:1.2;
+.print-cover-page-class .pdf-cover-logo {
+  width: 140px;
+  height: 140px;
+  margin: 0 auto 1.5rem;
+  display: block;
 }
 
-.print-cover-page-class h3{
-  font-size:26px;
-  font-weight:bold;
-  margin-bottom:30px;
-  line-height:1.2;
+.print-cover-page-class .pdf-cover-hero h1 {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 1.25;
+  margin: 0 0 1rem;
+}
+
+.print-cover-page-class .pdf-cover-version {
+  font-size: 18px;
+  line-height: 1.4;
+  color: #666;
+  margin: 0 0 1rem;
+}
+
+.print-cover-page-class .pdf-cover-tagline {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #444;
+  margin: 0 auto;
+  max-width: 36em;
+}
+
+.print-cover-page-class .pdf-cover-meta,
+.print-cover-page-class .vp-doc > p,
+.print-cover-page-class .vp-doc > img {
+  font-size: 11px;
+  line-height: 1.45;
+}
+
+.print-cover-page-class .pdf-cover-org,
+.print-cover-page-class .vp-doc > p.pdf-cover-org {
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 0 1.25rem;
+}
+
+.print-cover-page-class .pdf-cover-meta p,
+.print-cover-page-class .vp-doc > p:not(.pdf-cover-org):not(.pdf-cover-github) {
+  margin: 0 0 0.75rem;
+}
+
+.print-cover-page-class .pdf-cover-license-icon {
+  width: 0.94in;
+  height: 0.33in;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.print-cover-page-class .pdf-cover-github {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.75rem;
+}
+
+.print-cover-page-class .pdf-cover-github-icon {
+  width: 0.53in;
+  height: 0.53in;
+}
+
+@media print {
+  .print-cover-page-class .pdf-cover-hero h1 {
+    page-break-before: auto;
+    font-size: 28px;
+  }
+
+  .print-cover-page-class .pdf-cover-logo {
+    width: 120px;
+    height: 120px;
+  }
 }
 
