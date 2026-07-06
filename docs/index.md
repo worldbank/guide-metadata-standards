@@ -21,7 +21,7 @@ features:
       src: /file-pdf-box.svg
     title: Guide in PDF
     details: A downloadable version of the guide.
-    link: /metadata-standards-guide.pdf
+    link: metadata-standards-guide.pdf
 
   - icon:
       src: /github-mark.svg
